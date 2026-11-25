@@ -15,9 +15,9 @@ df['Salary'] = pd.to_numeric(df['Salary'])
 avgS = df["Salary"].mean()
 print(f"Mean Salary: {avgS}")
 
-# Find employees with salary greater than 50000
+# Find employees with salary greater than 10000
 top = df[df['Salary'] > 10000]
-print("\nTop Earners (Salary > 50000):")
+print("\nTop Earners (Salary > 10000):")
 print(top)
 
 # The original line topn=df.info(top) is incorrect usage.

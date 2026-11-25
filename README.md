@@ -1,1 +1,9 @@
 This Python code snippet demonstrates fundamental data manipulation techniques using the pandas library. It involves creating a DataFrame from a dictionary, converting a column to a numeric type, calculating the mean of a column, and filtering rows based on a condition.
+
+
+## Usage
+
+```bash
+pip install pandas
+python salary_analysis.py
+```
